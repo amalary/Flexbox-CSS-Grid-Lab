@@ -1,1 +1,5 @@
-![](images/../Card_Photo.png)
+![](images/Card_Photo.png) 
+
+
+
+Here's what it should look like 
