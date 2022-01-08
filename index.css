@@ -1,0 +1,112 @@
+*{
+    box-sizing:border-box;
+  }
+  
+  body {
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .center{
+    display:grid;
+    place-items:center;
+  }
+  
+  .card{
+    background-color:#fff;
+    width:250px;
+    display:flex;
+    flex-direction:column;
+    padding-top:20px;
+  }
+  
+  .card_profile{
+    width:100%;
+    position:relative;
+    
+  }
+  
+  .card_profile span{
+    font-size:12px;
+    position:absolute;
+    right:20px;
+    top:-10px;
+  }
+  
+  .card_profile img{
+    margin:auto;
+    display:block;
+    width:100px;
+    border-radius:50%;
+    border:5px solid #72d292;
+  }
+  
+  .card_profile h1 {
+    font-size:20px;
+    text-align:center;
+  }
+  .card_description {
+    background-color: #f1f1f1;
+    padding-top;15px;
+  }
+  
+  .card_description ul {
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    padding:0px;
+    margin:0px;
+  }
+  
+  .card_description li {
+    margin: 0 3px;
+    color:lightgray; 
+  }
+  
+  .card_description p {
+    text-align:center;
+  }
+  
+  .card_description .filled{
+    color:goldenrod;
+  }
+  
+  .card_pricing {
+    text-aling:center;
+  }
+  
+  .card_pricing h3 {
+    margin: 25px 0 5px
+  }
+  
+  .card_pricing p {
+    margin: 0 0 25px;
+  }
+  
+  .card_contact {
+    display: grind;
+    grid-template-columns: 1fr 1fr; 
+  }
+  
+  .card_contact button {
+    border: none;
+    color:white;
+    padding: 15px 0;
+    font-size: 26px;
+    cursor:pointer;
+    
+  }
+  
+  .card_contact button:first-child {
+    background-color: #5bcb7e;  
+  }
+  
+  .card_contact button:nth-child(2) {
+    background-color: #50b571;
+  }
+  
